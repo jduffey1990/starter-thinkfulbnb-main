@@ -71,7 +71,7 @@ header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 10px;
+  align-items: center;
 }
 
 header nav ul li {
@@ -106,6 +106,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  display: flex;
 }
 
 form button {
@@ -144,7 +145,6 @@ footer p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 
   header {
@@ -154,22 +154,30 @@ footer p {
   }
 
   .logo {
-    font-size: 96px;
+    font-size: 48px;
+  }
+
+  input {
+    display: flex;
   }
 
   body header nav {
-    align-items: flex-end;
+    align-items: center;
     display: flex;
     justify-content: space-between;
   }
 
-  form div {
+  form {
     padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   div.form {
     display: flex;
     flex-direction: column;
+    width: 10%;
 
   }
 
@@ -177,4 +185,16 @@ footer p {
     flex-direction: row;
     margin-bottom: 20px;
     align-items: center
+  }
+
+  #location {
+    max-width: 140px;
+  }
+
+  #date {
+    max-width: 120px;
+  }
+
+  #rental-type {
+    max-width: 115px;
   }
