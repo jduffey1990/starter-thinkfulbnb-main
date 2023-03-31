@@ -57,7 +57,7 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 5px 20px;
   text-align: center;
 }
 
@@ -72,6 +72,7 @@ header nav ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
 }
 
 header nav ul li {
@@ -154,7 +155,10 @@ footer p {
   }
 
   .logo {
-    font-size: 48px;
+    font-size: 32px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
   }
 
   input {
@@ -198,3 +202,8 @@ footer p {
   #rental-type {
     max-width: 115px;
   }
+
+  nav {
+    padding-left: 0px;
+  }
+}
